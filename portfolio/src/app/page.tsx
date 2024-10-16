@@ -11,8 +11,6 @@ import webimg from "../../public/Image/webimg.jpg";
 import atmpro from "../../public/Image/atm.jpg";
 import cart from "../../public/Image/c-art.jpg";
 import cwrite from "../../public/Image/con-write.jpg";
-import resume from "../../public/Image/resume img.jpg"
-
 
 
 
@@ -55,14 +53,14 @@ const page = () => {
         <div className="info">
           <h3>
 
-            I'm
+            I am
             <p>
               A<span>tia</span> S<span>ultani</span>
             </p>
           </h3>
           <h1> Front End Developer </h1>
           <p>
-            <q> Your Code Is The Foundation Of Someone's Next 'Wow' Moment </q>
+            <q> Your Code Is The Foundation Of Someone is Next Wow  Moment </q>
           </p>
         </div>
 
@@ -190,21 +188,21 @@ const page = () => {
           <div className="social">
 
             <a className="a" href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">
-              <img className="pic" src="facebook.jpg" alt="Facebook" title="Facebook" width="70px" height="70px" />
+              <Image className="pic" src="/facebook.jpg" alt="Facebook" title="Facebook" width={70} height={70} />
             </a>
 
             <a className="a" href="https://www.instagram.com/" target="_blank">
-              <img className="pic" src="instagram.jpg" alt="Instagram" title="Instagram" width="70px" height="70px" />
+              <Image className="pic" src="/instagram.jpg" alt="Instagram" title="Instagram" width={70} height={70} />
             </a>
 
             <a className="a" href="https://www.youtube.com/" target="_blank">
-              <img className="pic" src="youtube.jpg" alt="Youtube" title="Youtube" width="70px" height="70px" />
+              <Image className="pic" src="/youtube.jpg" alt="Youtube" title="Youtube" width={70} height={70} />
             </a>
 
           </div>
 
           <p>
-            <b> What's App : </b> 0321-123456789
+            <b> Whats App : </b> 0321-123456789
           </p>
           <p>
             <b> Address:</b> office 000 block 0 street 0 , Pakistan
