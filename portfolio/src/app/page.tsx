@@ -54,7 +54,7 @@ const page = () => {
         </div>
         <div className="info">
           <h3>
-            
+
             I'm
             <p>
               A<span>tia</span> S<span>ultani</span>
@@ -65,80 +65,80 @@ const page = () => {
             <q> Your Code Is The Foundation Of Someone's Next 'Wow' Moment </q>
           </p>
         </div>
-        
-        
-        </div>
+
+
+      </div>
 
       <section id="about">
         <h1>Hello ! </h1>
         <h3> Here You Read My Introducation  </h3>
         <p>
-          Recently I Continued My Web Developement Course in GIAIC<br/>
-            (Governor Sindh Initiative for
-            Artificial Intelligence, Web 3.0 & Metaverse).
+          Recently I Continued My Web Developement Course in GIAIC<br />
+          (Governor Sindh Initiative for
+          Artificial Intelligence, Web 3.0 & Metaverse).
           <br />
           I done HTML , CSS , JAVASCRIPT , TYPESCRIPT , NEXT JS
-        </p>      
-        <p className="text">You May Further Vist My Profile on Linkin</p>
-          <Link href="https://www.linkedin.com/in/atia-sultani-a9520113b">
-            
-            <Image
-              src={linkedin}
-              alt="linkedin"
-              width={70}
-              height={70}
-              className="linkedin"
-            />
-          </Link><br/>
-          <p className="text">At Github You Can see My Work & projects</p>
-          <Link href="https://github.com/atiasultani">
-            <Image
-              src={github}
-              alt="github"
-              width={70}
-              height={70}
-              className="github"
-            />
-          </Link>
-        
+        </p>
+        <p className="text">You May Further Vist My Profile on Linkin.Click on it</p>
+        <Link href="https://www.linkedin.com/in/atia-sultani-a9520113b" target="_blank">
+
+          <Image
+            src={linkedin}
+            alt="linkedin"
+            width={70}
+            height={70}
+            className="linkedin"
+          />
+        </Link><br />
+        <p className="text">At Github You Can see My Work & projects.Click on it</p>
+        <Link href="https://github.com/atiasultani" target="_blank">
+          <Image
+            src={github}
+            alt="github"
+            width={70}
+            height={70}
+            className="github"
+          />
+        </Link>
+
       </section>
 
       <section id="services">
         <div className="serv-main">
 
           <div className="ser">
-          
-          <h1>Web Developement</h1>
-          <Link href="https://firstweb-rosy.vercel.app/">
-            
-            <Image
-              src={webimg}
-              alt="web designs"
-              width={150}
-              height={150}
-              className="s-div"
-            />
-          </Link><br/>
+
+            <h1>Web Developement</h1>
+            <Link href="https://firstweb-rosy.vercel.app/" target="_blank">
+
+              <Image
+                src={webimg}
+                alt="web designs"
+                width={150}
+                height={150}
+                className="s-div"
+              />
+            </Link><br />
           </div>
 
           <div className="ser">
-              <h1> Typescript Project</h1>
-          <Link href="https://github.com/atiasultani/as4-ATM-Transaction">
-            
-            <Image
-              src={atmpro}
-              alt="atm project"
-              width={150}
-              height={150}
-              className="s-div"
-            />
-          </Link><br/>
+            <h1> Typescript Project</h1>
+            <Link href="https://github.com/atiasultani/as4-ATM-Transaction" target="_blank">
+
+              <Image
+                src={atmpro}
+                alt="atm project"
+                width={150}
+                height={150}
+                className="s-div"
+              />
+            </Link><br />
 
           </div>
 
           <div className="ser">
-        <h1>Logo Design</h1>
-            
+            <h1>Logo Design</h1>
+
             <Image
               src={logodes}
               alt="logo designs"
@@ -146,12 +146,12 @@ const page = () => {
               height={150}
               className="s-div"
             />
-        
+
           </div>
 
           <div className="ser">
 
-          <h1>Creative Art</h1>
+            <h1>Creative Art</h1>
             <Image
               src={cart}
               alt="creative art "
@@ -159,24 +159,24 @@ const page = () => {
               height={150}
               className="s-div"
             />
-          
+
           </div>
-          
+
           <div className="ser">
 
-          <h1>Contant Writer</h1>
-  <Image
-    src={cwrite}
-    alt="creative art "
-    width={150}
-    height={150}
-    className="s-div"
-  />
+            <h1>Contant Writer</h1>
+            <Image
+              src={cwrite}
+              alt="creative art "
+              width={150}
+              height={150}
+              className="s-div"
+            />
 
-</div>
+          </div>
 
 
-</div>
+        </div>
       </section>
 
 
@@ -186,21 +186,22 @@ const page = () => {
             <b> Mail To : </b> Atia.Sultani@outlook.com
           </p>
           <p>Visit Our Social Media Plateform</p>
-    <div className="social">  
-		
-		<a className="a" href="wwww.facebook.com/"> 
-		<img className="pic" src="facebook.jpg"  alt="Facebook" title="Facebook" width="70px" height="70px" />
-		</a>
+          <p>Click on it</p>
+          <div className="social">
 
-		<a className="a" href="wwww.instagram.com/"> 
-		<img className="pic" src="instagram.jpg" alt="Instagram" title="Instagram" width="70px" height="70px" />
-		</a>
+            <a className="a" href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">
+              <img className="pic" src="facebook.jpg" alt="Facebook" title="Facebook" width="70px" height="70px" />
+            </a>
 
-		<a className="a" href="wwww.youtube.com/"> 
-		<img  className="pic" src="youtube.jpg"  alt="Youtube"  title="Youtube"  width="70px" height="70px" />
-		</a>
-				
-	</div>
+            <a className="a" href="https://www.instagram.com/" target="_blank">
+              <img className="pic" src="instagram.jpg" alt="Instagram" title="Instagram" width="70px" height="70px" />
+            </a>
+
+            <a className="a" href="https://www.youtube.com/" target="_blank">
+              <img className="pic" src="youtube.jpg" alt="Youtube" title="Youtube" width="70px" height="70px" />
+            </a>
+
+          </div>
 
           <p>
             <b> What's App : </b> 0321-123456789
