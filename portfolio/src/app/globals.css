@@ -272,11 +272,10 @@ section {
     border-radius: 90%;
     display: flex-box;
     justify-content: center;
-    margin-left: 9%;}
-    
+    margin-left: 9%;};   
 .map {
     display: flex;
-    margin-left: 50%;
+    margin-left: 40%;
     padding-bottom: 0%;
-    border-radius: 30%;
+    border-radius: 35%;
 }
