@@ -60,7 +60,7 @@ const page = () => {
           </h3>
           <h1> Front End Developer </h1>
           <p>
-            <q> Your Code Is The Foundation Of Someone is Next Wow  Moment </q>
+            <q> Your Code Is The Foundation Of Someone`s Next Wow  Moment </q>
           </p>
         </div>
 

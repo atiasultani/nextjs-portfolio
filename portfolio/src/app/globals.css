@@ -268,15 +268,15 @@ section {
     padding-bottom: 0%;
 }
 
-
 .pic {
     border-radius: 90%;
     display: flex-box;
     justify-content: center;
-    margin-left: 9%;}   
+    margin-left: 10%;};
+
 .map {
     display: flex;
     margin-left: 40%;
     padding-bottom: 0%;
-    border-radius: 35%;
+    border-radius: 37%;
 }
