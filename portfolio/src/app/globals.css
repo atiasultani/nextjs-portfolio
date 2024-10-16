@@ -234,12 +234,11 @@ section {
         display: inline-flexbox;
         margin-left: 20%
     }
-}
+} ;
 
 section {
     background-color: #000;
-};
-
+}
 #contact {
     background-color: #000;
     display: flexbox;
@@ -274,12 +273,10 @@ section {
     display: flex-box;
     justify-content: center;
     margin-left: 9%;
-    ;
-};
-
+    
 .map {
     display: flex;
     margin-left: 40%;
     padding-bottom: 0%;
     border-radius: 30%;
-}
+}}
