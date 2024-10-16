@@ -140,10 +140,7 @@ body {
 
 ;
 
-section {
-    background-color: #000;
-}
-#about {
+section#about {
     display: flex-box;
     background-image: url('../../public/bg5.jpg');
     background-position: center;
