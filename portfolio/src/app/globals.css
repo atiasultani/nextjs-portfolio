@@ -139,7 +139,7 @@ body {
 }
 
 ;
-
+section {color: aliceblue;}
 #about {
     display: flex-box;
     background-image: url('../../public/bg5.jpg');
@@ -235,11 +235,6 @@ section {
         margin-left: 20%
     }
 }
-
-;
-
-
-
 
 section {
     background-color: #000;
