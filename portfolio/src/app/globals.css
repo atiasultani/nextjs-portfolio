@@ -240,7 +240,7 @@ section {
     color: white;
 }
 #contact {
-    background-color: #000;
+    background-color: black;
     display: flexbox;
     justify-content: center;
     color: wheat;
@@ -254,11 +254,11 @@ section {
         margin-top: 1.2%;
         text-align: center;
         line-height: 13px
-    } }
+    } };
 
 .social {
     display: flex;
-    justify-content: center;
+    justify-content: center;}
 
 
 .a {
@@ -279,4 +279,4 @@ section {
     margin-left: 50%;
     padding-bottom: 0%;
     border-radius: 30%;
-}}
+}
