@@ -140,7 +140,7 @@ body {
 
 ;
 
-section#about {
+#about {
     display: flex-box;
     background-image: url('../../public/bg5.jpg');
     background-position: center;
@@ -160,18 +160,18 @@ section#about {
         padding-top: 8.5%;
         margin-left: 45%;
         text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #85b903, 0 0 0.5em #85b903, 0 0 0.1em #85b903, 0 15px 4px #000;
-    }
+    };
 
     .text {
         line-height: 0.2%;
-    }
+    };
 
     .linkedin {
         margin-top: 0%;
         display: flex-box;
         border-radius: 60%;
         box-shadow: 0 0 1em #85b903
-    }
+    };
 
     .github {
         display: flex-box;
@@ -179,9 +179,7 @@ section#about {
         margin-top: 1%;
         box-shadow: 0 0 1em #85b903;
     }
-}
-
-;
+};
 
 section {
     color: azure;
@@ -245,7 +243,7 @@ section {
 
 section {
     background-color: #000;
-}
+};
 
 #contact {
     background-color: #000;
@@ -262,23 +260,19 @@ section {
         margin-top: 1.2%;
         text-align: center;
         line-height: 13px
-    }
-
-    ;
-
-}
+    };}
 
 .social {
     display: flex;
     justify-content: center;
-}
+};
 
 .a {
     display: inline;
     margin-left: 1.5%;
     margin-bottom: 0%;
     padding-bottom: 0%;
-}
+};
 
 .pic {
     border-radius: 90%;
@@ -286,7 +280,7 @@ section {
     justify-content: center;
     margin-left: 9%;
     ;
-}
+};
 
 .map {
     display: flex;
