@@ -263,17 +263,23 @@ section {
 
 .a {
     display: inline;
-    margin-left: 1.5%;
+    margin-left: -1.5%;
+    margin-right: -25%;
     margin-bottom: 0%;
     padding-bottom: 0%;
-}
+    padding-left: -1.5%;
+    padding-right: -1.5%;
 
+}
 .pic {
     border-radius: 90%;
     display: flex-box;
     justify-content: center;
-    margin-left: 10.5%;
-    margin-right: -25};
+    margin-left: 35%;
+    padding-left: -1%;
+    padding-right: -2%;
+    
+}
 
 .map {
     display: flex;
