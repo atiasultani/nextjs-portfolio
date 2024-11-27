@@ -1,37 +1,44 @@
 .header {
-    display: flex;
+    display: grid;
+    grid-template-rows: 5.5em;
+    grid-template-columns:3em 10em 10em 10em 10em 10em;
+
     justify-content: space-evenly;
     background-color: #0A1128;
     color: beige;
     position: fixed;
-    width: 100%;
+    width: 100vw;
+    height: 14vh;
 
     .styleimage {
         display: flex;
         justify-content: left;
-        margin-left: -8%;
-        margin-top: 1.5%;
-        margin-right: 2%;
-        border-radius: 60%;
+        margin-left: -4em;
+        margin-top: .5em;
+        margin-right: 2.5em;
+        border-radius: 60em;
+        width: 5em;
+        height: 5em;
     }
 
     h1 {
 
         display: flex-box;
         margin: 0%;
-        margin-top: 1.5%;
+        margin-top: .7em;
         color: white;
-        font-size: 7vh;
+        font-size: 2.5em;
         font-weight: 100;
         font-family: 'Times New Roman', Times, serif;
 
         span {
             display: flex-box;
             font-size: 4.5vh;
+            margin-left: .2em;
             color: teal;
         }
 
-        margin-left: -10%;
+        margin-left: -3em;
     }
 
     .bton:hover {
@@ -41,23 +48,24 @@
     }
 
     .bton {
-        color: teal;
+        color: orange;
         background-color: #001f50;
         border: solid aliceblue 2px;
-        border-radius: 15%;
-        padding-top: 0.5%;
-        padding-bottom: 0.5%;
-        padding-left: 3%;
-        padding-right: 3%;
-        margin-bottom: 2%;
-        margin-top: 2%;
-        font-size: medium;
+        border-radius: 15em;
+        padding-top: .8em;
+        padding-bottom: .5em;
+        padding-left: 2.5em;
+        padding-right: 2em;
+        margin-bottom: 1em;
+        margin-top: 1.5em;
+        font-size: large;
     }
 }
 
 body {
-    width: 100%;
-    height: 100%;
+    max-width: 100vw ;
+    min-width:fit-content;
+    height:100vh;
     display: block;
     background-color: #001f54;
 }
@@ -65,46 +73,46 @@ body {
 .intro {
     background-image: url('../../public/bg9.jpg');
     background-size: fill;
-    width: 100;
-    height: 100%;
+    width: 100vw ;
+    height: 100vh;
     display: flex-box;
     justify-content: center;
     margin-left: 0%;
-    margin-top: 0%;
-    font-size: 30px;
-    padding-bottom: 10.5%;
+    margin-top: 0em;
+    font-size: 2.5em;
+    padding-bottom: 1em;
 
     .log {
         display: flex-box;
         justify-content: center;
-        padding: 0%;
-        margin: 0%;
+        padding: 0em;
+        margin: 0em;
 
         .logo {
             border: solid 0.7rem #0A1128;
             border-style: double;
-            border-radius: 70%;
-            margin-top: 15%;
-            margin-left: 70%;
-            padding: 0%;
+            border-radius: 70em;
+            margin-top: 5em;
+            margin-left: 24em;
+            padding: 0em;
         }
     }
 
     .info {
         display: block;
-        margin-top: -29%;
+        margin-top: -9.5em;
 
         h3 {
 
             margin-top: 0%;
             margin-left: 12%;
-            padding-top: 9%;
+            padding-top: 8%;
             color: antiquewhite;
-            font-size: 55px;
+            font-size: 1.5em;
 
             p {
                 color: darkorange;
-                font-size: 70px;
+                font-size: 1em;
                 font-weight: 100;
                 margin-bottom: 2%;
                 margin-left: 3%;
@@ -112,7 +120,7 @@ body {
 
                 span {
                     color: aliceblue;
-                    font-size: 40px;
+                    font-size: 1em;
                 }
             }
         }
