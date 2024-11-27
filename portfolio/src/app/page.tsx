@@ -15,8 +15,8 @@ import cwrite from "../../public/Image/con-write.jpg";
 
 const page = () => {
   return (
-    <div className="maindiv w-full grid">
-      <div className="header w-auto grid">
+    <div className="maindiv w-screen grid">
+      <div className="header w-screen grid">
         <Image
           src={logo}
           alt="img"
@@ -39,7 +39,7 @@ const page = () => {
         </Link>
       </div>
 
-      <div className="intro grid">
+      <div className="intro w-screen">
         <div className="log">
           <Image
             src={logo}
@@ -49,9 +49,8 @@ const page = () => {
             className="logo"
           />
         </div>
-        <div className="info grid">
+        <div className="info w-screen">
           <h3>
-
             I am
             <p>
               A<span>tia</span> S<span>ultani</span>
@@ -69,7 +68,7 @@ const page = () => {
       <section id="about" className='grid'>
         <h1 className="sm:text-2xl md:text-3xl lg:text-4xl">Hello ! </h1>
         <h3> Here You Read My Introducation  </h3>
-        <p>
+        <p className="text">
           Recently I Continued My Web Developement Course in GIAIC<br />
           (Governor Sindh Initiative for
           Artificial Intelligence, Web 3.0 & Metaverse).
