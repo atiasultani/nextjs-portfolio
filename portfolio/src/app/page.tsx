@@ -99,80 +99,71 @@ const page = () => {
 
       </section>
 
-      <section id="services" className="grid">
-        <div className="serv-main grid">
+ <section id="services" className="w-screen h-screen">
+
+     <div className="serv-main w-screen h-screen ">
 
           <div className="ser">
 
             <h1>Web Developement</h1>
-            <Link href="https://firstweb-rosy.vercel.app/" target="_blank">
+            <div className="image">
+            <Link  href="https://firstweb-rosy.vercel.app/" target="_blank">
 
               <Image
                 src={webimg}
                 alt="web designs"
-                width={150}
-                height={150}
+                width={80}
+                height={80}
                 className="s-div"
               />
-            </Link><br />
+            </Link>
+            </div>
           </div>
 
           <div className="ser">
             <h1> Typescript Project</h1>
-            <Link href="https://github.com/atiasultani/as4-ATM-Transaction" target="_blank">
+            <div className="image">
+            <Link  href="https://github.com/atiasultani/as4-ATM-Transaction" target="_blank">
 
               <Image
                 src={atmpro}
                 alt="atm project"
-                width={150}
-                height={150}
+                width={80}
+                height={80}
                 className="s-div"
               />
-            </Link><br />
+            </Link>
+            </div>
 
           </div>
 
           <div className="ser">
             <h1>Logo Design</h1>
-
+           <div className="image" >
             <Image
               src={logodes}
               alt="logo designs"
-              width={150}
-              height={150}
+              width={80}
+              height={80}
               className="s-div"
             />
-
+          </div>
           </div>
 
           <div className="ser">
 
             <h1>Creative Art</h1>
+            <div className="image">
             <Image
               src={cart}
               alt="creative art "
-              width={150}
-              height={150}
+              width={80}
+              height={80}
               className="s-div"
             />
-
-          </div>
-
-          <div className="ser">
-
-            <h1>Contant Writer</h1>
-            <Image
-              src={cwrite}
-              alt="creative art "
-              width={150}
-              height={150}
-              className="s-div"
-            />
-
-          </div>
-
-
-        </div>
+              </div>
+         </div>
+     </div>
       </section>
 
 
