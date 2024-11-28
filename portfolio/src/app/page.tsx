@@ -9,7 +9,7 @@ import logodes from "../../public/Image/logo-des.jpg";
 import webimg from "../../public/Image/webimg.jpg";
 import atmpro from "../../public/Image/atm.jpg";
 import cart from "../../public/Image/c-art.jpg";
-import cwrite from "../../public/Image/con-write.jpg";
+
 
 
 
