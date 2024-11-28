@@ -99,11 +99,11 @@ const page = () => {
 
       </section>
 
- <section id="services" className="w-screen h-screen">
+ <section id="services">
 
      <div className="serv-main w-screen h-screen ">
 
-          <div className="ser">
+          <div id="ser" >
 
             <h1>Web Developement</h1>
             <div className="image">
@@ -120,7 +120,7 @@ const page = () => {
             </div>
           </div>
 
-          <div className="ser">
+          <div id="ser" >
             <h1> Typescript Project</h1>
             <div className="image">
             <Link  href="https://github.com/atiasultani/as4-ATM-Transaction" target="_blank">
@@ -137,7 +137,7 @@ const page = () => {
 
           </div>
 
-          <div className="ser">
+          <div id="ser" >
             <h1>Logo Design</h1>
            <div className="image" >
             <Image
@@ -150,13 +150,13 @@ const page = () => {
           </div>
           </div>
 
-          <div className="ser">
+          <div id="ser" >
 
             <h1>Creative Art</h1>
             <div className="image">
             <Image
               src={cart}
-              alt="creative art "
+              alt="creative art"
               width={80}
               height={80}
               className="s-div"

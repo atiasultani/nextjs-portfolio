@@ -1,20 +1,20 @@
 
     .header {
     width: 100vw;
-    height: 14vh;
+    height: 10vh;
     display:grid;
     grid-auto-flow: column;
     background-color: #0A1128;
     color: beige;
     position: fixed;
     padding: 0em;
-    margin: 0em;
-
+    margin-top: 2em;
+    margin-bottom: 5em;
     .styleimage {
         display:flex;
         justify-content:left;
         margin-left: 1em;
-        margin-top: .2em;
+        margin-top: 1em;
         margin-right: 2.5em;
         border-radius: 60em;
         width: 5em;
@@ -23,7 +23,7 @@
 
     .h1 {
         margin-left:.1em;
-        margin-top: .5em;
+        margin-top: -.5em;
         padding-top: .6em;
         color: white;
         font-size: 2.5em ;
@@ -43,11 +43,11 @@
         text-align: center;
         font-size: x-large;
         padding-left: 2em;
-        padding-top: 1em;
+        padding-top: .5em;
         padding-right: 2em;
-        padding-bottom: 1em;
+        padding-bottom: .5em;
         margin-top: 1.4em;
-        margin-bottom: 1.4em;
+        margin-bottom: 2.7em;
         color: orange;
         background-color: #001f50;
         border: solid aliceblue 2px;
@@ -179,103 +179,85 @@ section {
     width: screen; height: screen;
     color: azure;
 }
-
 #services {
+    width: screen; height: screen;
     display: grid;
     background-image: url('../../public/abg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 0em;
-    padding-bottom: 12.8em;
-    margin-top: 0em;
-}
+    background-size: fill;
 
 h1 {
     color: beige;
-   display:grid;
    grid-auto-flow: column;
    text-align: center;
    margin-left: 1.8em;
-   margin-top: 4em;
-
+   padding-top: 2em;
+padding-bottom: .5em;
 }
 .serv-main {
     display:grid;
     grid-auto-flow: column;
     position:relative;
-}
+    text-align: center;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    margin-right: 2em;}
 
-.ser {
-    display: grid;
-    
-    padding-bottom: 15em;
-    position: relative;
-    
-    .s-div {
-        width: 20vw;
-        height: 10vh;
+#ser {
+
+    display:grid;
+
+   
+}
+.s-div {
         border: solid .5em;
         border-style: double;
         border-radius: 5em;
         box-shadow: 0 0 2em rgba(231, 235, 14, 0.979);
-
+        margin-left: 2em;
     }
-    .image{
-        padding-left: 3em ; padding-top: 2em };
     .s-div:hover {
         box-shadow: 0 2em 2em black;
         border-radius: 90em;
         border: solid .6em;
         box-sizing: border-box ;
-    }
-
-} ;
-
+    };
+}
+;
 section {
     width: screen;
     height: screen;
     color: white;
 }
 #contact {
-    width: screen;
-    height: screen;
     background-color: black;
-    display: flexbox;
-    justify-content: center;
+     justify-content: center;
     color: wheat;
     font-size: x-large;
-    margin-top: -15em;
-    padding-left: 7em;
-    padding-top: 1em;
+    padding-left: 1em;
+    padding-top: 8em;
     padding-bottom: 5em;
 
     p {
-        margin-top: .2em;
+        
         text-align: center;
         line-height: 13px
     } };
 
+    address{display: grid;}
 .social {
-    display: flex;
-    justify-content: center;}
-
-
-.a {
-    display: grid;
-    grid-auto-flow: column;
-}
-.pic {
-
-    border-radius: 90em;
-    display: flex-box;
+    display:flex;
     justify-content: space-evenly;
+    }
 
+.pic {
+    border-radius: 90em;
     
 }
 
 .map {
-    display: flex;
-    margin-left: 40em;
+    display:grid;
+    grid-area: auto;
+    margin-left: 9em;
     padding-bottom: 0em;
     border-radius: 37em;
 }
