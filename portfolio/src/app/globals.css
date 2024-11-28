@@ -1,69 +1,59 @@
-*{ width: screen;
-    height: screen;
-    padding: 0em;
-    margin: 0em;}
-body {
-    width:screen;
-    height:screen;
-    display: relative;
-    background-color: #001f54;
-}
-.header {
-    display: grid;
-    grid-template-rows: 5.5em;
-    grid-template-columns:3em 10em 10em 10em 10em 10em;
-    justify-content: space-evenly;
+
+    .header {
+    width: 100vw;
+    height: 14vh;
+    display:grid;
+    grid-auto-flow: column;
     background-color: #0A1128;
     color: beige;
     position: fixed;
-    width: 100vw;
-    height: 14vh;
+    padding: 0em;
+    margin: 0em;
 
     .styleimage {
-        display: static;
-        justify-content: left;
-        margin-left: -4em;
-        margin-top: .5em;
+        display:flex;
+        justify-content:left;
+        margin-left: 1em;
+        margin-top: .2em;
         margin-right: 2.5em;
         border-radius: 60em;
         width: 5em;
         height: 5em;
     }
 
-    h1 {
-
-        display: flex;
-        margin: 0%;
+    .h1 {
+        margin-left:.1em;
         margin-top: .5em;
+        padding-top: .6em;
         color: white;
-        font-size: 2.5em;
+        font-size: 2.5em ;
         font-weight: 100;
         font-family: 'Times New Roman', Times, serif;
 
         span {
-            display: flex;
-            font-size: 4.5vh;
+            font-size: .8em;
             margin-left: .2em;
-            margin-top: .4em;
+            margin-top: .3em;
             color: teal;
-        }
+        };
+           }
 
-        margin-left: -2em;
-    }
-
-    
-    .bton { width: screen;
+        .bton { 
+        width: fit-content;
+        text-align: center;
+        font-size: x-large;
+        padding-left: 2em;
+        padding-top: 1em;
+        padding-right: 2em;
+        padding-bottom: 1em;
+        margin-top: 1.4em;
+        margin-bottom: 1.4em;
         color: orange;
         background-color: #001f50;
         border: solid aliceblue 2px;
-        border-radius: 15em;
-        padding-top: .6em;
-        padding-bottom: .5em;
-        padding-left: 2.5em;
-        padding-right: 2em;
-        margin-bottom: 1em;
-        margin-top: 1.5em;
-        font-size: large;
+        border-radius: 10em;     
+    display: flex-box;
+    position: grid;
     }
 }
 .bton:hover {
@@ -76,29 +66,28 @@ body {
     background-image: url('../../public/bg9.jpg');
     background-size: fill;
     width: screen;
-    height: screen;
+    height: 100vh;
     display: grid;
-    justify-content: center;
-    margin-left: 0em;
-    margin-top: 0em;
     font-size: 2.5em;
-    padding-bottom: 9em;
+    padding-top: 0em;
 
     .log {
-        width: fit-content;
+        
         display: grid;
-        justify-content: center;
+        grid-column-end: 3;
+        margin-left:-10em;
 
-        .logo {
+        .logo{ 
+            display: grid;
             border: solid 0.7rem #0A1128;
             border-style: double;
             border-radius: 70em;
             margin-top: 5em;
-            margin-left: 24em;
+        
         }
     }
-.intro{ width:screen; height: screen;}
-    .info {margin-top: -15rem;
+       .info{          
+             margin-top: -15rem;
         h3 {
             margin-top: -2rem;
             margin-left: 2em;
@@ -128,8 +117,12 @@ body {
             color: rgb(175, 189, 201)
         };
 
-        q {
-            margin-left: 1em;
+        .Quote{ 
+            inline-size: 18em;
+            text-align: center;}
+        
+            q {
+            margin-left: 0em;
             margin-top: -21em;
                  
             color: aliceblue
@@ -140,8 +133,6 @@ body {
 
 section {color: aliceblue; width: screen; height: screen;}
 #about {
-    width: screen; 
-    height: screen;
     display: grid;
     grid-template-columns: auto;
     background-image: url('../../public/bg5.jpg');
@@ -149,8 +140,7 @@ section {color: aliceblue; width: screen; height: screen;}
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0em;
-    margin-bottom: 8em;
-    padding-bottom: 15em;
+    padding-bottom: 3em;
     padding-top: 5em;
     color: aquamarine;
     text-align: center;
@@ -191,42 +181,39 @@ section {
 }
 
 #services {
-    width: screen; height: screen;
     display: grid;
-    grid-template-columns: auto;
     background-image: url('../../public/abg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 20em;
+    padding-top: 0em;
     padding-bottom: 12.8em;
     margin-top: 0em;
 }
 
 h1 {
     color: beige;
-    text-align: center;
-   display: flex;
-   margin-left: 2em;
-   margin-top: 1em;
+   display:grid;
+   grid-auto-flow: column;
+   text-align: center;
+   margin-left: 1.8em;
+   margin-top: 4em;
 
 }
 .serv-main {
-    width: screen; height:screen;
     display:grid;
     grid-auto-flow: column;
     position:relative;
 }
 
 .ser {
-    width: screen;
-    height: screen;
     display: grid;
-    grid-auto-flow: space-evenly;
-    padding-bottom: 13.5em;
-position: relative;
+    
+    padding-bottom: 15em;
+    position: relative;
+    
     .s-div {
-        width: 10vw;
-        height: 20vh;
+        width: 20vw;
+        height: 10vh;
         border: solid .5em;
         border-style: double;
         border-radius: 5em;

@@ -15,8 +15,8 @@ import cwrite from "../../public/Image/con-write.jpg";
 
 const page = () => {
   return (
-    <div className="maindiv w-screen grid">
-      <div className="header w-screen grid">
+    <div className="maindiv w-screen h-screen">
+      <div className="header w-full">
         <Image
           src={logo}
           alt="img"
@@ -24,32 +24,32 @@ const page = () => {
           height="48"
           className="styleimage"
         />
-        <h1 className="h1 grid">A<span>tia</span> S<span>ultani</span></h1>
-        <Link className="bton grid-cols-1" href="#home">
+        <h1 className="h1">A<span>tia</span> S<span>ultani</span></h1>
+        <Link className="bton" href="/">
           Home
         </Link>
-        <Link className="bton grid-cols-2" href="#about">
+        <Link className="bton" href="#about">
           About
         </Link>
-        <Link className="bton grid-cols-3" href="#services">
+        <Link className="bton " href="#services">
           Services
         </Link>
-        <Link className="bton grid-cols-4" href="#contact">
+        <Link className="bton " href="#contact">
           Contact
         </Link>
       </div>
 
-      <div className="intro w-screen">
+      <div className="intro w-auto h-auto">
         <div className="log">
           <Image
             src={logo}
             alt="img"
-            width="250"
-            height="230"
+            width="150"
+            height="150"
             className="logo"
           />
         </div>
-        <div className="info w-screen">
+        <div className="info w-auto h-auto">
           <h3>
             I am
             <p>
@@ -57,7 +57,7 @@ const page = () => {
             </p>
           </h3>
           <h1> Front End Developer </h1>
-          <p>
+          <p className="Quote">
             <q> Your Code Is The Foundation Of Someone`s Next Wow  Moment </q>
           </p>
         </div>
