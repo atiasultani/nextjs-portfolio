@@ -196,8 +196,10 @@ const page = () => {
           <p>
             <b> Address:</b> office 000 block 0 street 0 , Pakistan
           </p>
-          <Image src={map} alt="map" className="map" />
-        </address>
+          
+           <Image src={map} alt="map" className="map"/>
+      
+          </address>      
       </section>
     </div>
   );
